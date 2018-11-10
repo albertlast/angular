@@ -1,0 +1,12 @@
+ID: xsa_angular
+_schema-version: '2.0'
+version: 0.0.1
+
+modules:
+ - name: angular_ui
+   type: nodejs
+   path: angular_ui
+   provides:
+    - name: angular_ui_api
+      properties:
+         url: ${default-url}
