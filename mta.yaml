@@ -3,10 +3,12 @@ _schema-version: '2.0'
 version: 0.0.1
 
 modules:
- - name: angular_ui
+ - name: angularui
    type: nodejs
-   path: angular_ui
+   path: angularui
    provides:
-    - name: angular_ui_api
+    - name: angularui_api
       properties:
          url: ${default-url}
+
+ 

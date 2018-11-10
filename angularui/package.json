@@ -9,7 +9,7 @@
   },
   "files": [],
   "main": "server.js",
-  "name": "angular_ui",
+  "name": "angularui",
   "scripts": {
     "start": "node server.js",
     "test": "node ./node_modules/gulp/bin/gulp test",
